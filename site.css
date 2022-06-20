@@ -692,12 +692,12 @@
     .loc{
       position: relative;
       display: flex;
-      left:58%;
+      left:55%;
       top:10%;
     }
     .pos{
       position: absolute;
-      left:58%;
+      left:55%;
       top:10%;
       display: flex;
     }
