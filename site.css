@@ -64,14 +64,17 @@
   }
   .container h1{
     position: absolute;
-    left:60%;
+    left:50%;
+      transform: translate(-50%);
     top:42%;
     font-size:70px;
     color: white;
   }
   .container h2{
     position: absolute;
-    left:55%;
+    left:50%;
+      transform: translate(-50%);
+      text-align: center;
     top:50%;
     margin-right:20px;
     font-size:25px;
@@ -165,14 +168,17 @@
   @media (max-width: 1680px){
     .container h1{
       position: absolute;
-      left:61%;
+      left:50%;
+      transform: translate(-50%);
       top:42%;
       font-size:70px;
       color: white;
     }
     .container h2{
       position: absolute;
-      left:58%;
+      left:50%;
+      transform: translate(-50%);
+      text-align: center;
       top:50%;
       font-size:25px;
       color: white;
@@ -219,14 +225,17 @@
   @media (max-width: 1440px){
     .container h1{
       position: absolute;
-      left:60%;
+      left:50%;
+      transform: translate(-50%);
       top:42%;
       font-size:65px;
       color: white;
     }
     .container h2{
       position: absolute;
-      left:55%;
+      left:50%;
+      transform: translate(-50%);
+      text-align: center;
       top:50%;
       margin-right:20px;
       font-size:25px;
@@ -291,28 +300,10 @@
     }
   }
   @media (max-width: 1150px){
-    .container h1{
-      position: absolute;
-      left:60%;
-      top:42%;
-      font-size:60px;
-      color: white;
-    }
-    .container h2{
-      position: absolute;
-      left:55%;
-      top:50%;
-      margin-right:20px;
-      font-size:25px;
-      color: white;
-    }
     #back{
     width: 100%;
-    max-height:100%;
-    min-height: auto;
-    background-size: 100%;
+    height: 100%;
     object-fit: cover;
-    
     }
     .about p{
       margin-top:5cm;
@@ -321,14 +312,16 @@
     }
     .container h1{
       position: absolute;
-      left:60%;
+      left:50%;
+      transform: translate(-50%);
       top:42%;
       font-size:55px;
       color: white;
     }
     .container h2{
       position: absolute;
-      left:55%;
+      left:50%;
+      transform: translate(-50%);
       top:50%;
       margin-right:20px;
       font-size:25px;
@@ -339,6 +332,18 @@
     max-height:100%;
     min-height: auto;
     background-size: 100%;
+    }
+    .loc{
+      position: relative;
+      display: flex;
+      left:65%;
+      top:10%;
+    }
+    .pos{
+      position: absolute;
+      left:65%;
+      top:10%;
+      display: flex;
     }
   }
   @media (max-width: 1100px){
@@ -377,15 +382,18 @@
     }
     .container h1{
       position: absolute;
-      left:60%;
+      left:50%;
+      transform: translate(-50%);
       top:42%;
       font-size:45px;
       color: white;
     }
     .container h2{
       position: absolute;
-      left:60%;
-      top:50%;
+      left:50%;
+      transform: translate(-50%);
+      text-align: center;
+      top:47%;
       font-size:25px;
       color: white;
     }
@@ -471,15 +479,20 @@
     }
     .container h1{
       position: absolute;
-      left:60%;
+      left:50%;
+      transform: translate(-50%);
+      text-align: center;
       top:42%;
       font-size:35px;
       color: white;
     }
     .container h2{
       position: absolute;
-      left:60%;
-      top:50%;
+      left:50%;
+      transform: translate(-50%);
+      text-align: center;
+      text-align: center;
+      top:48%;
       font-size:20px;
       color: white;
     }
@@ -500,7 +513,7 @@
       margin-left:25%;
       grid-column: auto;
       margin-top: 50px;
-      font-size:20px;
+      font-size:18px;
     }
     #rlogos{
       margin-right: 2px;
@@ -510,12 +523,12 @@
     .loc{
       position: relative;
       display: flex;
-      left:73%;
+      left:70%;
       top:10%;
     }
     .pos{
       position: absolute;
-      left:73%;
+      left:70%;
       top:10%;
       display: flex;
     }
@@ -565,15 +578,18 @@
     }
     .container h1{
       position: absolute;
-      left:60%;
+      left:50%;
+      transform: translate(-50%);
       top:42%;
       font-size:28px;
       color: white;
     }
     .container h2{
       position: absolute;
-      left:60%;
-      top:50%;
+      left:50%;
+      transform: translate(-50%);
+      text-align: center;
+      top:48%;
       font-size:18px;
       color: white;
     }
@@ -659,16 +675,19 @@
     }
     .container h1{
       position: absolute;
-      left:60%;
+      left:50%;
+      transform: translate(-50%);
       top:42%;
-      font-size:20px;
+      font-size:30px;
       color: white;
     }
     .container h2{
       position: absolute;
-      left:60%;
-      top:50%;
-      font-size:18px;
+      left:50%;
+      transform: translate(-50%);
+      text-align: center;
+      top:47%;
+      font-size:15px;
       color: white;
     }
     .about{
@@ -791,16 +810,19 @@
     }
     .container h1{
       position: absolute;
-      left:60%;
+      left:50%;
+      transform: translate(-50%);
       top:42%;
-      font-size:20px;
+      font-size:25px;
       color: white;
     }
     .container h2{
       position: absolute;
-      left:60%;
-      top:50%;
-      font-size:18px;
+      left:50%;
+      transform: translate(-50%);
+      text-align: center;
+      top:47%;
+      font-size:20px;
       color: white;
     }
     .about{
@@ -863,7 +885,6 @@
       justify-content: center;
       align-items: center;
     }
-  
     input[type=text], select, textarea {
       outline: none;
       display: flex;
@@ -890,7 +911,6 @@
       border: 2px solid black;
       cursor: pointer;
     }
-    
     input[type=submit]:hover {
       border:none;
     }
