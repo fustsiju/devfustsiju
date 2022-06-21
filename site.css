@@ -817,7 +817,7 @@
     }
     .about p{
       margin-right:40%;
-      margin-left:10%;
+      margin-left:5%;
       grid-column: auto;
       margin-top: 50px;
       font-size:20px;
@@ -842,7 +842,7 @@
     #foto{
       position:relative;
       top:100px;
-      left:32%;
+      left:27%;
       width:300px;
       height:300px;
       padding-right: 50px;
