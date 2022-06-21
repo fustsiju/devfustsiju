@@ -1,3 +1,4 @@
+ /*Resetando HTML*/
   body, html, p, h1{
     height:100%;
     padding: 0;
@@ -6,6 +7,7 @@
     font-family:'Roboto', sans-serif;
     scroll-behavior: smooth;
   }
+  /*Parte da barra de navegação*/
   .nav a{
     text-decoration: none;
     color:white;
@@ -51,6 +53,7 @@
   #hc:hover{
     color:yellow;
   }
+  /*Inicio da página*/
   .container{
     position: relative;
     width:100%;
@@ -67,6 +70,7 @@
     left:50%;
       transform: translate(-50%);
     top:42%;
+    margin-bottom: 20px;
     font-size:70px;
     color: white;
   }
@@ -80,6 +84,7 @@
     font-size:25px;
     color: white;
   }
+  /*Parte de informações pessoais*/
   .about{
     display:flex;
   }
@@ -93,6 +98,7 @@
     margin-right:4cm;
     font-size:25px;
   }
+  /*Parte para contato*/
   .contact{
     position:relative;
     width:100%;
@@ -148,9 +154,11 @@
 
   #foto{
     margin:4cm;
+    margin-top:5cm;
     max-width:360px;
     height:370px;
   }
+  /*Final da página*/
   #footer{
     position: relative;
     width:100%;
@@ -165,12 +173,14 @@
     justify-content: center;
     align-items: center;
   }
+  /*Responsividade Monitores*/
   @media (max-width: 1680px){
     .container h1{
       position: absolute;
       left:50%;
       transform: translate(-50%);
       top:42%;
+      margin-bottom: 20px;
       font-size:70px;
       color: white;
     }
@@ -228,6 +238,7 @@
       left:50%;
       transform: translate(-50%);
       top:42%;
+      margin-bottom: 20px;
       font-size:65px;
       color: white;
     }
@@ -315,6 +326,7 @@
       left:50%;
       transform: translate(-50%);
       top:42%;
+      margin-bottom: 20px;
       font-size:55px;
       color: white;
     }
@@ -353,6 +365,7 @@
       font-size:14px;
     }
   }
+  /*Responsividade Ipad*/
   @media (max-width: 1050px){
     .nav a{
       text-decoration: none;
@@ -385,6 +398,7 @@
       left:50%;
       transform: translate(-50%);
       top:42%;
+      margin-bottom: 20px;
       font-size:45px;
       color: white;
     }
@@ -483,6 +497,7 @@
       transform: translate(-50%);
       text-align: center;
       top:42%;
+      margin-bottom: 20px;
       font-size:35px;
       color: white;
     }
@@ -549,6 +564,7 @@
       padding-bottom:50px;
     }
   }
+  /*Responsividade Celulares/Tablets*/
   @media (max-width: 600px){
     .nav a{
       text-decoration: none;
@@ -581,7 +597,8 @@
       left:50%;
       transform: translate(-50%);
       top:42%;
-      font-size:28px;
+      margin-bottom: 20px;
+      font-size:23px;
       color: white;
     }
     .container h2{
@@ -678,7 +695,8 @@
       left:50%;
       transform: translate(-50%);
       top:42%;
-      font-size:30px;
+      margin-bottom: 20px;
+      font-size:23px;
       color: white;
     }
     .container h2{
@@ -687,7 +705,7 @@
       transform: translate(-50%);
       text-align: center;
       top:47%;
-      font-size:15px;
+      font-size:18px;
       color: white;
     }
     .about{
@@ -813,7 +831,8 @@
       left:50%;
       transform: translate(-50%);
       top:42%;
-      font-size:25px;
+      margin-bottom: 20px;
+      font-size:23px;
       color: white;
     }
     .container h2{
@@ -822,7 +841,7 @@
       transform: translate(-50%);
       text-align: center;
       top:47%;
-      font-size:20px;
+      font-size:18px;
       color: white;
     }
     .about{
