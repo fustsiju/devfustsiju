@@ -7,6 +7,19 @@
     font-family:'Roboto', sans-serif;
     scroll-behavior: smooth;
   }
+  /* modificações da barra de scroll */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: black;
+}
+::-webkit-scrollbar-thumb {
+  background: chartreuse;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: chartreuse;
+}
   /*Parte da barra de navegação*/
   .nav a{
     text-decoration: none;
@@ -68,7 +81,7 @@
   .container h1{
     position: absolute;
     left:50%;
-      transform: translate(-50%);
+    transform: translate(-50%);
     top:42%;
     margin-bottom: 20px;
     font-size:70px;
@@ -77,12 +90,40 @@
   .container h2{
     position: absolute;
     left:50%;
-      transform: translate(-50%);
-      text-align: center;
+    transform: translate(-50%);
+    text-align: center;
     top:50%;
     margin-right:20px;
     font-size:25px;
     color: white;
+  }
+  .falsa-digitacao:after {
+    content: "|";
+    margin-left: 5px;
+    opacity: 1;
+    -webkit-animation: pisca 1s infinite;
+            animation: pisca 1s infinite;
+    color: chartreuse;
+  }
+  
+  @-webkit-keyframes pisca {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes pisca {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
   }
   /*Parte de informações pessoais*/
   .about{
