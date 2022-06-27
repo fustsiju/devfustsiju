@@ -101,24 +101,21 @@
     content: "|";
     margin-left: 5px;
     opacity: 1;
-    -webkit-animation: pisca 1s infinite;
-            animation: pisca 1s infinite;
+    -webkit-animation: piscar 1s infinite;
+    animation: piscar 1s infinite;
     color: chartreuse;
   }
   
-  @-webkit-keyframes pisca {
-    0%,
-    100% {
+  @-webkit-keyframes piscar {
+    0%,100% {
       opacity: 1;
     }
     50% {
       opacity: 0;
     }
   }
-  
-  @keyframes pisca {
-    0%,
-    100% {
+  @keyframes piscar {
+    0%,100% {
       opacity: 1;
     }
     50% {
