@@ -188,6 +188,8 @@
   
   input[type=submit]:hover {
     border:none;
+    background:black;
+    color: white;
   }
 
   #foto{
@@ -835,8 +837,10 @@
     }
     
     input[type=submit]:hover {
-      border:none;
-    }
+     border:none;
+     background:black;
+     color: white;
+  }
   }
   @media (max-width: 400px){
     .nav a{
@@ -969,6 +973,8 @@
       cursor: pointer;
     }
     input[type=submit]:hover {
-      border:none;
-    }
+     border:none;
+     background:black;
+     color: white;
+  }
   }
