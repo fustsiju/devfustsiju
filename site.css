@@ -187,7 +187,7 @@
   }
   
   input[type=submit]:hover {
-    border:none;
+    border: 2px solid #333333;
     background:black;
     color: white;
   }
@@ -837,7 +837,7 @@
     }
     
     input[type=submit]:hover {
-     border:none;
+     border: 2px solid #333333;
      background:black;
      color: white;
   }
@@ -973,7 +973,7 @@
       cursor: pointer;
     }
     input[type=submit]:hover {
-     border:none;
+     border: 2px solid #333333;
      background:black;
      color: white;
   }
