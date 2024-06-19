@@ -32,7 +32,6 @@
     height:15%;
     background: black;
     display: flex;
-   padding-bottom:10px;
   }
   #logo{
     position: absolute;
@@ -72,7 +71,7 @@
   .container{
     position: relative;
     width:100%;
-    height:100%;  
+    height:100vh;  
   }
   #back{
     position: absolute;
@@ -980,3 +979,16 @@
      color: white;
   }
   }
+.typing-container {
+    color: chartreuse;
+}
+.typing-effect {
+    display: inline;
+    border-right: 2px solid chartreuse;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+span{
+  color: chartreuse;
+}
