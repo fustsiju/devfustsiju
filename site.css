@@ -137,6 +137,7 @@
     margin-top:6cm;
     margin-right:4cm;
     font-size:25px;
+    text-align: justify;
   }
   /*Parte para contato*/
   .contact{
@@ -272,6 +273,7 @@
       margin-top:6cm;
       margin-right:4cm;
       font-size:22px;
+     text-align: justify;
     }
   }
   @media (max-width: 1440px){
@@ -306,6 +308,7 @@
       margin-top:5cm;
       margin-right:2cm;
       font-size:20px;
+     text-align: justify;
     }
     #logo{
       position: absolute;
@@ -343,6 +346,7 @@
       margin-top:5cm;
       margin-right:2cm;
       font-size:18px;
+     text-align: justify;
     }
   }
   @media (max-width: 1250px){
@@ -350,6 +354,7 @@
       margin-top:5cm;
       margin-right:2cm;
       font-size:16px;
+     text-align: justify;
     }
   }
   @media (max-width: 1150px){
@@ -362,6 +367,7 @@
       margin-top:5cm;
       margin-right:2cm;
       font-size:14px;
+     text-align: justify;
     }
     .container h1{
       position: absolute;
@@ -405,6 +411,7 @@
       margin-top:5cm;
       margin-right:2cm;
       font-size:14px;
+     text-align: justify;
     }
   }
   /*Responsividade Ipad*/
@@ -471,6 +478,7 @@
       grid-column: auto;
       margin-top: 50px;
       font-size:20px;
+     text-align: justify;
     }
     #rlogos{
       margin-right: 2px;
@@ -571,6 +579,7 @@
       grid-column: auto;
       margin-top: 50px;
       font-size:18px;
+     text-align: justify;
     }
     #rlogos{
       margin-right: 2px;
@@ -670,6 +679,7 @@
       grid-column: auto;
       margin-top: 50px;
       font-size:20px;
+     text-align: justify;
     }
     #rlogos{
       margin-right: 2px;
@@ -768,6 +778,7 @@
       grid-column: auto;
       margin-top: 50px;
       font-size:20px;
+     text-align: justify;
     }
     #rlogos{
       margin-right: 2px;
@@ -906,6 +917,7 @@
       grid-column: auto;
       margin-top: 50px;
       font-size:18px;
+     text-align: justify;
     }
     #rlogos{
       margin-right: 2px;
