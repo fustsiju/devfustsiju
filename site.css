@@ -984,9 +984,10 @@
 }
 .typing-effect {
     display: inline;
-    border-right: 2px solid chartreuse;
+    border-right: 2px solid grey;
     white-space: nowrap;
     overflow: hidden;
+    
 }
 
 span{
