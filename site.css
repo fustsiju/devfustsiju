@@ -209,7 +209,6 @@
     width:100%;
     height: 110px;
     background: #333333;
-    padding-top: 1cm;
   }
   #footer p{
     color: white;
@@ -822,7 +821,7 @@
       position:relative;
       top:25%;
       border-radius: 5px;
-      padding: 30px;
+      margin: 30px;
       display:flex;
       justify-content: center;
       align-items: center;
