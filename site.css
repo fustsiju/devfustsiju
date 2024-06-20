@@ -35,7 +35,7 @@
     height:15%;
     background: black;
     display: flex;
-    padding-bottom:10px;
+    padding-bottom:20px;
   }
   #logo{
     position: absolute;
@@ -433,7 +433,6 @@
       height:20%;
       background: black;
       display: flex;
-      padding-bottom:10px;
     }
     #logo{
       position: absolute;
@@ -533,7 +532,6 @@
       height:20%;
       background: black;
       display: flex;
-      padding-bottom:10px;
     }
     #logo{
       position: absolute;
@@ -636,7 +634,6 @@
       height:20%;
       background: black;
       display: flex;
-      padding-bottom:10px;
     }
     #logo{
       position: absolute;
@@ -736,7 +733,6 @@
       height:20%;
       background: black;
       display: flex;
-      padding-bottom:10px;
     }
     #logo{
       position: absolute;
@@ -877,7 +873,6 @@
       height:20%;
       background: black;
       display: flex;
-      padding-bottom:10px;
     }
     #logo{
       position: absolute;
