@@ -196,7 +196,9 @@
   }
 
   #foto{
-    margin:4cm;
+    margin-bottom:4cm;
+    margin-left:4cm;
+    margin-right:3cm;
     margin-top:5cm;
     max-width:360px;
     height:370px;
