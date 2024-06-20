@@ -1003,10 +1003,19 @@
 }
 .typing-effect {
     display: inline;
-    border-right: 2px solid grey;
     white-space: nowrap;
     overflow: hidden;
-    
+}
+.typing-effect::after {
+  display: inline;
+  content: "|";
+  white-space: nowrap;
+  overflow: hidden;
+  margin-left: 5px;
+  opacity: 1;
+  -webkit-animation: piscar 1s infinite;
+  animation: piscar 1.5s infinite;
+  color: white;
 }
 
 span{
