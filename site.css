@@ -553,9 +553,10 @@
     .about h1{
       position: absolute;
       left:50%;
-      transform: translate(-50%);
+      transform: translate(-85%);
       margin:1cm;
       margin-top:3cm;
+      font-size: 25px;
     }
     .about p{
       margin-right:25%;
@@ -654,7 +655,7 @@
       position: absolute;
       grid-column: auto;
       left:50%;
-      transform: translate(-50%);
+      transform: translate(-80%);
       margin:1cm;
       margin-top:3cm;
       font-size: 25px;
@@ -853,13 +854,13 @@
       position: absolute;
       grid-column: auto;
       left:50%;
-      transform: translate(-50%);
+      transform: translate(-85%);
       margin:1cm;
       margin-top:3cm;
       font-size: 25px;
     }
     .about p{
-      margin-right:40%;
+      margin-right:30%;
       margin-left:10%;
       grid-column: auto;
       margin-top: 50px;
@@ -886,7 +887,7 @@
     #foto{
       position:relative;
       top:100px;
-      left:32%;
+      left:40%;
       width:300px;
       height:300px;
       padding-right: 50px;
@@ -992,7 +993,7 @@
       position: absolute;
       grid-column: auto;
       left:50%;
-      transform: translate(-50%);
+      transform: translate(-85%);
       margin:1cm;
       margin-top:3cm;
       font-size: 22px;
@@ -1105,12 +1106,3 @@
 span{
   color: chartreuse;
 }
-.typing-effect span {
-  visibility: hidden;
-}
-.keyword { color: #569cd6; }    
-.string { color: #d69d85; }   
-.type { color: #4ec9b0; }      
-.comment { color: #6a9955; }       
-.function { color: #dcdcaa; }     
-.punctuation { color: #d4d4d4; }   
