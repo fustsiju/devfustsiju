@@ -1,7 +1,7 @@
 const languages = {
     c: [
-        `#include &lt;stdio.h&gt;\nint main() {\n   printf("Hello World!\\n");\n   return 0;\n}`,
-        `#include &lt;stdio.h&gt;\nint main() {\n   printf("Click me\\n");\n   return 0;\n}`
+        `#include <stdio.h>;\nint main() {\n   printf("Hello World!");\n   return 0;\n}`,
+        `#include <stdio.h>;\nint main() {\n   printf("Click me");\n   return 0;\n}`
     ],
     csharp: [
         `using System;\nclass Program {\n   static void Main() {\n      Console.WriteLine("Hello World!");\n   }\n}`,
