@@ -91,20 +91,21 @@
     left:50%;
     transform: translateX(-50%);
     top:30%;
-    margin-bottom: 2em;
     font-size:70px;
     color: white;
   }
   .container h2{
     position: absolute;
     left:50%;
-    top:50%;
+    top:40%;
     transform: translateX(-50%);
     margin-top: 2em;
-    margin-right:20px;
+    max-width: 600px;
+    text-align-last: center;
     font-size:25px;
     color: white;
   }
+ 
   .falsa-digitacao:after {
     content: "|";
     margin-left: 5px;
