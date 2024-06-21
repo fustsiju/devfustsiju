@@ -191,7 +191,7 @@
     .container-itens{
         width: 600px;
         height: auto;
-        padding-left: 20px;
+        padding-left: 40px;
     }
   }
   @media (max-width: 620px){
