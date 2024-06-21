@@ -262,7 +262,6 @@
     border-right: none;
     margin-top: 6px;
     margin-bottom: 16px;
-    resize: vertical;
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
     resize: none;
@@ -925,7 +924,6 @@
       border-right: none;
       margin-top: 6px;
       margin-bottom: 16px;
-      resize: vertical;
       font-family: 'Times New Roman', Times, serif;
       font-size: 15px;
      resize: none;
@@ -1062,7 +1060,6 @@
       border-right: none;
       margin-top: 6px;
       margin-bottom: 16px;
-      resize: vertical;
       font-family: 'Times New Roman', Times, serif;
       font-size: 15px;
      resize: none;
