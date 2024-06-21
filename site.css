@@ -87,7 +87,7 @@
     object-fit: cover;
   }
   .container h1{
-    position: relative;
+    position: absolute;
     left:50%;
     transform: translateX(-50%);
     top:30%;
@@ -96,8 +96,9 @@
     color: white;
   }
   .container h2{
-    position: relative;
+    position: absolute;
     left:50%;
+    top:50%;
     transform: translateX(-50%);
     margin-top: 2em;
     margin-right:20px;
@@ -141,7 +142,7 @@
     text-align: center;
   }
   .container-itens{
-    width: 845px;
+    width: 850px;
     height: auto;
     position:relative;
     left:50%;
@@ -211,12 +212,20 @@
   /*Parte de informações pessoais*/
   .about{
     display:flex;
+    position: relative;
   }
   .about h1{
     position: absolute;
     left:50%;
     transform: translateX(-50%);
     margin:3cm
+  }
+  .about p{
+    margin-top:5cm;
+      margin-right:4cm;
+      font-size:20px;
+      align-content: center;
+     text-align: justify;
   }
   /*Parte para contato*/
   .contact{
@@ -344,7 +353,7 @@
     }
     .about{
       display:flex;
-      margin-bottom: 50px;;
+      margin-bottom: 50px;
     }
     .about h1{
       position: absolute;
@@ -356,6 +365,7 @@
       margin-top:5cm;
       margin-right:4cm;
       font-size:20px;
+      align-content: center;
      text-align: justify;
     }
   }
