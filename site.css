@@ -59,7 +59,7 @@
   .pos{
     position: absolute;
     top:10%;
-    right: 0px;
+    right: 2.5em;
     display: flex;
   }
   #ha:hover{
