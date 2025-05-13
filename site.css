@@ -149,9 +149,9 @@ body{
     text-align: center;
   }
   .container-itens{
-    width: 850px;
+    width: 900px;
     height: auto;
-    position:relative;
+    position: relative;
     left:50%;
     transform: translateX(-50%);
     display: flex;
@@ -166,9 +166,10 @@ body{
     top:0px;
     width: 250px;
     height: 200px;
+    color:black;
     margin-bottom: 20px;
-    border-radius: 20px;
-    border: 1px solid black;
+    border-radius: 4px;
+    border: 0.1px solid black;
   }
 
   .itens:hover{
