@@ -26,8 +26,8 @@ const languages = {
   adj: ["developer", "creative", "collaborator", "agile", "results-oriented", "dedicated"]
 };
 
-const typingSpeed = 70;
-const erasingSpeed = 50;
+const typingSpeed = 50;
+const erasingSpeed = 25;
 const delayBetweenWords = 2000;
 
 function createTypingEffect(selector, words) {

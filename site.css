@@ -12,6 +12,12 @@ body, html, p {
   outline: none;
   overflow-x: hidden;
 }
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
 .skills a {
   text-decoration: none !important;
 }
@@ -34,7 +40,7 @@ body, html, p {
 
 /* Navegação */
 .nav {
-  position: initial;
+  position:initial;
   left: 0;
   top: 0;
   width: 100%;
@@ -59,6 +65,7 @@ body, html, p {
 }
 
 #logo {
+  position: relative;
   left: 10%;
   top: 4%;
   width: 40px;
@@ -71,8 +78,16 @@ body, html, p {
   height: 45px;
 }
 
-.loc, .pos {
-  position: absolute;
+.loc{
+  position:relative;
+  right: 2.5em;
+  display: flex;
+  top: 10px;
+  max-height: 50px;
+}
+
+.pos {
+  position: relative;
   right: 2.5em;
   display: flex;
   top: 10px;
@@ -99,6 +114,8 @@ body, html, p {
 /* Container principal */
 .container {
   position: relative;
+  display: flex;
+  flex-direction: column;
   width: 100%;
   height: 100vh;
 }
@@ -132,6 +149,7 @@ body, html, p {
 }
 
 /* Efeito de digitação */
+
 .falsa-digitacao::after,
 .typing-effect::after {
   content: "|";
@@ -151,11 +169,38 @@ body, html, p {
   50% { opacity: 0; }
 }
 
+/* Sobre */
+.about {
+  display: flex;
+
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 0cm 0cm 4.6cm 0cm;
+}
+
+.about h1 {
+  flex-basis: 100%;
+  text-align: center;
+  font-size: 2rem;
+}
+
+
+.about p {
+  max-width: 600px;
+  font-size: 20px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
 /* Skills */
 .skills {
-  background: rgb(46, 46, 46);
+  display: flex;
+  flex-direction: column;
+  background: rgb(46, 52, 54);
   width: 100%;
-  min-height: 100%;
+  min-height: 100vh;
   padding-top: 50px;
   padding-bottom: 20px;
 }
@@ -176,8 +221,8 @@ body, html, p {
 }
 
 .itens {
-  width: 300px;
-  height: 250px;
+  width: 325px;
+  height: 300px;
   color: black;
   border-radius: 4px 4px 0px 0px;
   border: 0.1px solid rgb(0, 255, 55);
@@ -204,6 +249,11 @@ body, html, p {
   align-items: center;
 }
 
+.logo-itens img {
+  width: 100%;
+  height: 100%;
+}
+
 .itens h2 {
   font-size: 20px;
   text-align: center;
@@ -219,31 +269,150 @@ body, html, p {
   flex-wrap: wrap;
 }
 
-/* Sobre */
-.about {
+/* Trabalhos/Projetos */
+
+.trabalhos {
   display: flex;
+  flex-direction: column;
+  background: rgb(255, 255, 255);
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.trabalhos h1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  padding-bottom: 50px;
+}
+.trabalhos h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+.trabalhos .container-itens {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+.trabalhos a{
+  text-decoration: none;
+}
+.trabalhos .itens {
+  width: 325px;
+  height: 300px;
+  color: black;
+  border-radius: 4px 4px 0px 0px;
+  border: 0.1px solid rgb(0, 255, 55);
+  padding: 10px;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
   position: relative;
+}
+.trabalhos .itens:hover {
+  background-color: rgba(6, 255, 60, 0.205);
+  box-shadow: 0px 3px #000000;
+}
+
+/* Certificações */
+
+.certificacoes {
+  background: rgb(46, 52, 54);
+  width: 100%;
+  min-height: 100vh;
+  padding: 50px 20px 20px 20px;
+  box-sizing: border-box;
+}
+
+.certificacoes h1 {
+  text-align: center;
+  color: chartreuse;
+  margin-bottom: 50px;
+}
+
+.cert-container {
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 200px;
+  align-items: flex-start;
   gap: 20px;
-  padding: 0cm 0cm 4.6cm 0cm;
 }
 
-.about h1 {
-  flex-basis: 100%;
+.cert-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  flex: 1 1 300px;
+}
+
+.cert-left img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+.cert-left #dados {
+  color: white;
   text-align: center;
-  font-size: 2rem;
-}
-
-.about p {
-  max-width: 600px;
-  font-size: 20px;
-  text-align: justify;
   line-height: 1.5;
 }
 
+.line {
+  width: 2px;
+  background-color: white;
+  height: auto;
+  min-height: 200px;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+
+.cert-right {
+  flex: 1 1 300px;
+  color: white;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  min-width: 250px;
+}
+
+.cert-right h2 {
+  margin-bottom: 10px;
+}
+
+.cert-right h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 1100px) {
+  .line{display: none;}
+}
+@media (max-width: 768px) {
+  .cert-container {
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+  }
+  .cert-right {
+    padding-left: 0;
+    text-align: center;
+  }
+  .cert-right p{
+    height: auto;
+  }
+}
+
 /* Contato */
+
 .contact {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   padding: 50px 0;
   position: relative;
@@ -320,6 +489,8 @@ input[type=submit]:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  left:125px;
+  position: relative;
   margin: 0;
 }
 
@@ -328,6 +499,15 @@ input[type=submit]:hover {
   .container-itens {
     max-width: 600px;
     padding-left: 40px;
+  }
+  .loc{
+
+    right: 0;
+    top: 20px;
+  }
+  #rlogos {
+    width: 20px;
+    height: 20px;
   }
 }
 
@@ -413,11 +593,12 @@ input[type=submit]:hover {
 @media (max-width: 768px) {
   .menu-toggle {
     display: block;
-    left: 90%;
+    left: 40vw;
+    position:relative;
     cursor: pointer;
   }
 
-    .nav a {
+  .nav a {
     display: none;
   }
 
@@ -453,10 +634,6 @@ input[type=submit]:hover {
   .about p {
     font-size: 20px;
   }
-  #rlogos {
-    width: 40px;
-    height: 40px;
-  }
   .loc {
     top: 20px;
   }
@@ -485,7 +662,7 @@ input[type=submit]:hover {
     transform: translateX(-4%);
   }
   .about p {
-    margin: 50px 0 0 0;
+    margin: 50px 10px 10px 0;
     font-size: 20px;
   }
   #foto {
@@ -497,9 +674,7 @@ input[type=submit]:hover {
   .formulario {
     margin: 30px;
   }
-  input[type=text], select, textarea {
-    width: 300px;
-  }
+
 }
 
 @media (max-width: 400px) {
@@ -514,7 +689,12 @@ input[type=submit]:hover {
     font-size: 22px;
   }
   .about p {
-    font-size: 18px;
+    margin: 50px 50px 20px 20px;
+    max-width: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
   }
   #foto {
     left: 27%;
