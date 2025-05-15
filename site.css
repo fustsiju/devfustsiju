@@ -90,12 +90,12 @@ main {
   position: relative;
   right: 2.5em;
   display: flex;
-  top: 10px;
   max-height: 50px;
+  top: 10%;
 }
 
-.pos {
-  top: 10%;
+.pos a{
+  margin: 10px;
 }
 
 .menu-toggle {
@@ -198,6 +198,7 @@ main {
 .skills {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   background: rgb(46, 52, 54);
   width: 100%;
   min-height: 100vh;

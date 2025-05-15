@@ -1,3 +1,9 @@
+document.addEventListener('DOMContentLoaded', function() {
+  const currentYearSpan = document.getElementById('currentYear');
+  const currentYear = new Date().getFullYear();
+  currentYearSpan.textContent = currentYear;
+});
+
 const languages = {
   c: [
     `#include <stdio.h>;\nint main() {\n   printf("Hello World!");\n   return 0;\n}`,
