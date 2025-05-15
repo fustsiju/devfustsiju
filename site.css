@@ -193,14 +193,14 @@ main {
   background: rgb(46, 52, 54);
   width: 100%;
   min-height: 100vh;
-  padding-top: 50px;
+  padding-top: 10px;
   padding-bottom: 20px;
 }
 
 .skills h1 {
   text-align: center;
   color: chartreuse;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 .container-itens {
@@ -270,7 +270,7 @@ main {
   width: 100%;
   min-height: 100vh;
   padding-top: 50px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 .trabalhos h1 {
@@ -474,7 +474,7 @@ input[type=submit]:hover {
 #footer {
   width: 100%;
   height: 80px;
-  background: #333;
+  background: #000000;
   display: flex;
   justify-content: center;
   align-items: center;
