@@ -214,7 +214,7 @@ main {
 .container-itens {
   max-width: 1080px;
   margin: 0 auto;
-  padding-right: 20px;
+  padding-right: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
