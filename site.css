@@ -17,6 +17,17 @@ main {
   padding: 20px;
 }
 
+.lang-btn {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #ccc;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
 .skills a {
   text-decoration: none !important;
 }
