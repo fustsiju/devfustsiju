@@ -230,7 +230,7 @@ main {
 }
 
 .itens:hover {
-  background-color: rgba(6, 255, 60, 0.205);
+  background-color: rgba(37, 196, 72, 0.205);
   box-shadow: 0px 3px #000000;
 }
 
@@ -276,7 +276,7 @@ main {
 .trabalhos h1 {
   text-align: center;
   color: rgb(0, 0, 0);
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 .trabalhos h2 {
@@ -303,6 +303,9 @@ main {
   color: black;
   border-radius: 4px 4px 0px 0px;
   border: 0.1px solid rgb(0, 255, 55);
+  border-top: 0px;
+  border-left: 0px;
+  border-right:0px;
   padding: 10px;
   box-sizing: border-box;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
@@ -310,7 +313,7 @@ main {
 }
 
 .trabalhos .itens:hover {
-  background-color: rgba(6, 255, 60, 0.205);
+  background-color: rgba(255, 230, 6, 0.205);
   box-shadow: 0px 3px #000000;
 }
 

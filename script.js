@@ -34,7 +34,7 @@ const languages = {
 
 const typingSpeed = 50;
 const erasingSpeed = 25;
-const delayBetweenWords = 2000;
+const delayBetweenWords = 2500;
 
 function createTypingEffect(selector, words) {
   const elements = document.querySelectorAll(selector);
