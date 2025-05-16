@@ -34,10 +34,10 @@ main {
 
 /* Scroll personalizado */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
 }
 ::-webkit-scrollbar-track {
-  background: black;
+  background: rgba(0, 0, 0, 0.993);
 }
 ::-webkit-scrollbar-thumb {
   background: chartreuse;
@@ -49,16 +49,17 @@ main {
 
 /* Navegação */
 .nav {
-  position: initial;
+  position: fixed;
   left: 0;
   top: 0;
   width: 100%;
-  height: 120px;
-  background: black;
+  height: 80px;
+  background: rgba(0, 0, 0, 0.50);
   display: flex;
   padding-bottom: 20px;
   align-items: center;
   justify-content: space-between;
+  z-index: 10;
 }
 
 .nav a {
@@ -209,6 +210,7 @@ main {
 }
 
 .skills h1 {
+  padding-top: 60px;
   text-align: center;
   color: chartreuse;
   padding-bottom: 100px;
@@ -285,6 +287,7 @@ main {
 }
 
 .trabalhos h1 {
+  padding-top: 40px;
   text-align: center;
   color: rgb(0, 0, 0);
   padding-bottom: 100px;
@@ -338,6 +341,7 @@ main {
 }
 
 .certificacoes h1 {
+  padding-top: 40px;
   text-align: center;
   color: chartreuse;
   margin-bottom: 50px;
@@ -480,6 +484,7 @@ input[type=submit]:hover {
 }
 
 #foto {
+  padding-top: 50px;
   max-width: 360px;
   height: 370px;
   object-fit: cover;
@@ -535,9 +540,7 @@ input[type=submit]:hover {
   .nav a {
     font-size: 20px;
   }
-  .nav {
-    height: 120px;
-  }
+
   #logo {
     position:relative;
     width: 30px;
@@ -607,25 +610,29 @@ input[type=submit]:hover {
     left: 40vw;
     cursor: pointer;
   }
+  .nav{
+    height: 40px;
+  }
   .nav a {
     display: none;
   }
   #nav-links {
     display: none;
     flex-direction: column;
-    background: rgb(46, 52, 54);
-    position: static;
+    background: rgba(46, 52, 54, 0.5);
     top: 100px;
     right: 0;
     width: 100%;
     text-align: center;
     z-index: 10;
+    
   }
   #nav-links.active {
-    top:80px;
+    top:17px;
     display: flex;
     padding: 100px;
   }
+
   #nav-links a {
     display: block;
     position: relative;
@@ -633,7 +640,6 @@ input[type=submit]:hover {
     margin: 8px;
     font-size: 20px;
   }
-
   .nav {
     flex-wrap: wrap;
     justify-content: space-between;
