@@ -28,7 +28,6 @@ main {
   border-radius: 5px;
 }
 
-
 .skills a {
   text-decoration: none !important;
 }
@@ -39,6 +38,7 @@ main {
 }
 ::-webkit-scrollbar-track {
   background: rgba(0, 0, 0, 0.993);
+  
 }
 ::-webkit-scrollbar-thumb {
   background: chartreuse;
@@ -447,7 +447,7 @@ main {
   width: 100%;
   padding: 50px 0;
   position: relative;
-  min-height: 80vh;
+  min-height: 90vh;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
@@ -460,6 +460,7 @@ main {
 .formulario {
   max-width: 600px;
   margin: 0 auto;
+  margin-top: 50px;
   border-radius: 5px;
   padding: 30px;
   display: flex;
@@ -491,11 +492,12 @@ input[type=submit] {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
+  border-radius: 2px;
 }
 
 input[type=submit]:hover {
-  background: black;
-  color: white;
+  background: chartreuse;
+  color: black;
   border-color: #333;
 }
 
@@ -641,10 +643,9 @@ input[type=submit]:hover {
     width: 100%;
     text-align: center;
     z-index: 10;
-    
   }
   #nav-links.active {
-    top:17px;
+    top:0px;
     display: flex;
     padding: 100px;
   }
