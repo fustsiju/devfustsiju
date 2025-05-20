@@ -76,6 +76,45 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+const logo = document.getElementById('logo');
+const home = document.getElementById('home');
+const about = document.getElementById('about');
+const skills = document.getElementById('skills');
+const projects = document.getElementById('projects');
+const certifications = document.getElementById('certifications');
+const contact = document.getElementById('contact');
+
+logo.addEventListener('click', () => {
+  const section1 = document.getElementById('section1');
+  section1.scrollIntoView({ behavior: 'smooth' });
+});
+
+home.addEventListener('click', () => {
+  const section1 = document.getElementById('section1');
+  section1.scrollIntoView({ behavior: 'smooth' });
+});
+about.addEventListener('click', () => {
+  const section2 = document.getElementById('section2');
+  section2.scrollIntoView({ behavior: 'smooth' });
+}); 
+skills.addEventListener('click', () => {
+  const section3 = document.getElementById('section3');
+  section3.scrollIntoView({ behavior: 'smooth' });
+}); 
+projects.addEventListener('click', () => {
+  const section4 = document.getElementById('section4');
+  section4.scrollIntoView({ behavior: 'smooth' });
+}); 
+certifications.addEventListener('click', () => {
+  const section5 = document.getElementById('section5');
+  section5.scrollIntoView({ behavior: 'smooth' });
+}); 
+contact.addEventListener('click', () => {
+  const section6 = document.getElementById('section6');
+  section6.scrollIntoView({ behavior: 'smooth' });
+});
+
+
 const toggle = document.getElementById('menu-toggle');
 const navLinks = document.getElementById('nav-links');
 
