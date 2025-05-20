@@ -638,22 +638,19 @@ input[type=submit]:hover {
     display: none;
     flex-direction: column;
     background: rgba(46, 52, 54, 0.5);
-    top: 100px;
     right: 0;
     width: 100%;
     text-align: center;
     z-index: 10;
   }
   #nav-links.active {
-    top:0px;
+    position: relative;
     display: flex;
-    padding: 100px;
   }
 
   #nav-links a {
     display: block;
     position: relative;
-    top:-100px;
     margin: 8px;
     font-size: 20px;
   }
@@ -680,6 +677,9 @@ input[type=submit]:hover {
 }
 
 @media (max-width: 525px) {
+  #nav-links{
+    top:16px;
+  }
   .nav a {
     font-size: 20px;
   }
