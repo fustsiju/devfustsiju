@@ -437,9 +437,9 @@ main {
   .cert-right p {
     height: auto;
   }
-}
-.nav{
+  .nav{
    padding-bottom: 20px;
+}
 }
 /* Contato */
 .contact {
